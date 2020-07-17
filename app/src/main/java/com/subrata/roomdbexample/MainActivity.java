@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
             fragmentManager.beginTransaction().add(R.id.fragment_container, new Home_fragment()).commit();
             //Made test change
             // This is a test change to make.
+            //This is 2nd phase to test change
         }
 
     }

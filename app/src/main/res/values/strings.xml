@@ -6,4 +6,5 @@
     <!-- Credits-->
     <!-- Credits to Prabeesh R K for tutorials-->
 
+    <string name="test"> (this is a test) </string>
 </resources>

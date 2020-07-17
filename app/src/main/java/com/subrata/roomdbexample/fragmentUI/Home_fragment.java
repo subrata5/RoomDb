@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.subrata.roomdbexample.MainActivity;
 import com.subrata.roomdbexample.R;
@@ -16,6 +17,7 @@ import com.subrata.roomdbexample.R;
 public class Home_fragment extends Fragment implements View.OnClickListener {
 
     private Button btn_add_user, btn_view_user;
+    private TextView test_txt;
 
     public Home_fragment() {
         // Required empty public constructor
@@ -31,6 +33,9 @@ public class Home_fragment extends Fragment implements View.OnClickListener {
         //Initialize view
         btn_add_user = view.findViewById(R.id.btn_add);
         btn_view_user = view.findViewById(R.id.btn_view);
+        test_txt = view.findViewById(R.id.test_txt);
+
+        test_txt.setText(getResources().getString(R.string.test));
 
         btn_add_user.setOnClickListener(this);
         btn_view_user.setOnClickListener(this);

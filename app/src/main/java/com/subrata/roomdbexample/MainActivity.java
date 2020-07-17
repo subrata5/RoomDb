@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             fragmentManager.beginTransaction().add(R.id.fragment_container, new Home_fragment()).commit();
+            //Made test change
         }
 
     }
